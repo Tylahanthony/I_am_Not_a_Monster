@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 3957c464df7c6f7468f630f8c45f976a
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 1 Story
+    100002: 3rd story
+    100004: 3rd story001
+    100006: 4 Windows006
+    100008: 4 Windows007
+    100010: 4 Windows008
+    100012: Base Level
+    100014: //RootNode
+    100016: FixedWindow005
+    100018: FixedWindow006
+    100020: FixedWindow007
+    100022: FixedWindow008
+    100024: FixedWindow009
+    100026: FixedWindow010
+    100028: FixedWindow011
+    100030: FixedWindow012
+    100032: FixedWindow013
+    100034: FixedWindow014
+    100036: FixedWindow015
+    100038: FixedWindow016
+    100040: FixedWindow017
+    100042: FixedWindow018
+    100044: FixedWindow019
+    100046: FixedWindow020
+    100048: FixedWindow021
+    100050: FixedWindow022
+    100052: FixedWindow023
+    100054: FixedWindow024
+    100056: FixedWindow025
+    100058: FixedWindow026
+    100060: FixedWindow027
+    100062: FixedWindow028
+    100064: FixedWindow029
+    100066: FixedWindow030
+    100068: FixedWindow031
+    100070: FixedWindow032
+    100072: FixedWindow033
+    100074: FixedWindow034
+    100076: FixedWindow035
+    100078: FixedWindow036
+    100080: FixedWindow037
+    100082: FixedWindow038
+    100084: FixedWindow039
+    100086: FixedWindow040
+    100088: PivotDoor002
+    100090: PivotDoor003
+    400000: 1 Story
+    400002: 3rd story
+    400004: 3rd story001
+    400006: 4 Windows006
+    400008: 4 Windows007
+    400010: 4 Windows008
+    400012: Base Level
+    400014: //RootNode
+    400016: FixedWindow005
+    400018: FixedWindow006
+    400020: FixedWindow007
+    400022: FixedWindow008
+    400024: FixedWindow009
+    400026: FixedWindow010
+    400028: FixedWindow011
+    400030: FixedWindow012
+    400032: FixedWindow013
+    400034: FixedWindow014
+    400036: FixedWindow015
+    400038: FixedWindow016
+    400040: FixedWindow017
+    400042: FixedWindow018
+    400044: FixedWindow019
+    400046: FixedWindow020
+    400048: FixedWindow021
+    400050: FixedWindow022
+    400052: FixedWindow023
+    400054: FixedWindow024
+    400056: FixedWindow025
+    400058: FixedWindow026
+    400060: FixedWindow027
+    400062: FixedWindow028
+    400064: FixedWindow029
+    400066: FixedWindow030
+    400068: FixedWindow031
+    400070: FixedWindow032
+    400072: FixedWindow033
+    400074: FixedWindow034
+    400076: FixedWindow035
+    400078: FixedWindow036
+    400080: FixedWindow037
+    400082: FixedWindow038
+    400084: FixedWindow039
+    400086: FixedWindow040
+    400088: PivotDoor002
+    400090: PivotDoor003
+    2100000: 'Material #2'
+    2100002: 'Material #3'
+    2100004: 'Material #15'
+    2100006: 'Material #115'
+    2300000: 1 Story
+    2300002: 3rd story
+    2300004: 3rd story001
+    2300006: Base Level
+    2300008: FixedWindow005
+    2300010: FixedWindow006
+    2300012: FixedWindow007
+    2300014: FixedWindow008
+    2300016: FixedWindow009
+    2300018: FixedWindow010
+    2300020: FixedWindow011
+    2300022: FixedWindow012
+    2300024: FixedWindow013
+    2300026: FixedWindow014
+    2300028: FixedWindow015
+    2300030: FixedWindow016
+    2300032: FixedWindow017
+    2300034: FixedWindow018
+    2300036: FixedWindow019
+    2300038: FixedWindow020
+    2300040: FixedWindow021
+    2300042: FixedWindow022
+    2300044: FixedWindow023
+    2300046: FixedWindow024
+    2300048: FixedWindow025
+    2300050: FixedWindow026
+    2300052: FixedWindow027
+    2300054: FixedWindow028
+    2300056: FixedWindow029
+    2300058: FixedWindow030
+    2300060: FixedWindow031
+    2300062: FixedWindow032
+    2300064: FixedWindow033
+    2300066: FixedWindow034
+    2300068: FixedWindow035
+    2300070: FixedWindow036
+    2300072: FixedWindow037
+    2300074: FixedWindow038
+    2300076: FixedWindow039
+    2300078: FixedWindow040
+    2300080: PivotDoor002
+    2300082: PivotDoor003
+    3300000: 1 Story
+    3300002: 3rd story
+    3300004: 3rd story001
+    3300006: Base Level
+    3300008: FixedWindow005
+    3300010: FixedWindow006
+    3300012: FixedWindow007
+    3300014: FixedWindow008
+    3300016: FixedWindow009
+    3300018: FixedWindow010
+    3300020: FixedWindow011
+    3300022: FixedWindow012
+    3300024: FixedWindow013
+    3300026: FixedWindow014
+    3300028: FixedWindow015
+    3300030: FixedWindow016
+    3300032: FixedWindow017
+    3300034: FixedWindow018
+    3300036: FixedWindow019
+    3300038: FixedWindow020
+    3300040: FixedWindow021
+    3300042: FixedWindow022
+    3300044: FixedWindow023
+    3300046: FixedWindow024
+    3300048: FixedWindow025
+    3300050: FixedWindow026
+    3300052: FixedWindow027
+    3300054: FixedWindow028
+    3300056: FixedWindow029
+    3300058: FixedWindow030
+    3300060: FixedWindow031
+    3300062: FixedWindow032
+    3300064: FixedWindow033
+    3300066: FixedWindow034
+    3300068: FixedWindow035
+    3300070: FixedWindow036
+    3300072: FixedWindow037
+    3300074: FixedWindow038
+    3300076: FixedWindow039
+    3300078: FixedWindow040
+    3300080: PivotDoor002
+    3300082: PivotDoor003
+    4300000: Base Level
+    4300002: 1 Story
+    4300004: FixedWindow008
+    4300006: FixedWindow007
+    4300008: FixedWindow006
+    4300010: FixedWindow005
+    4300012: FixedWindow013
+    4300014: FixedWindow014
+    4300016: FixedWindow015
+    4300018: FixedWindow016
+    4300020: FixedWindow009
+    4300022: FixedWindow010
+    4300024: FixedWindow011
+    4300026: FixedWindow012
+    4300028: 3rd story
+    4300030: FixedWindow017
+    4300032: FixedWindow018
+    4300034: FixedWindow019
+    4300036: FixedWindow020
+    4300038: FixedWindow021
+    4300040: FixedWindow022
+    4300042: FixedWindow023
+    4300044: FixedWindow024
+    4300046: FixedWindow025
+    4300048: FixedWindow026
+    4300050: FixedWindow027
+    4300052: FixedWindow028
+    4300054: PivotDoor002
+    4300056: PivotDoor003
+    4300058: 3rd story001
+    4300060: FixedWindow029
+    4300062: FixedWindow030
+    4300064: FixedWindow031
+    4300066: FixedWindow032
+    4300068: FixedWindow033
+    4300070: FixedWindow034
+    4300072: FixedWindow035
+    4300074: FixedWindow036
+    4300076: FixedWindow037
+    4300078: FixedWindow038
+    4300080: FixedWindow039
+    4300082: FixedWindow040
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

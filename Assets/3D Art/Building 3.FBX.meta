@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 6067783b0ee8b314ba7549417685939e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AwningWindow003
+    100002: AwningWindow004
+    100004: AwningWindow005
+    100006: AwningWindow006
+    100008: AwningWindow007
+    100010: AwningWindow008
+    100012: AwningWindow009
+    100014: AwningWindow010
+    100016: AwningWindow011
+    100018: AwningWindow012
+    100020: AwningWindow013
+    100022: AwningWindow014
+    100024: AwningWindow015
+    100026: AwningWindow016
+    100028: AwningWindow017
+    100030: AwningWindow018
+    100032: AwningWindow019
+    100034: AwningWindow020
+    100036: AwningWindow021
+    100038: AwningWindow022
+    100040: AwningWindow023
+    100042: AwningWindow024
+    100044: AwningWindow025
+    100046: AwningWindow026
+    100048: AwningWindow027
+    100050: AwningWindow028
+    100052: AwningWindow029
+    100054: AwningWindow030
+    100056: Box001
+    100058: Box002
+    100060: //RootNode
+    100062: Group001
+    100064: Group002
+    100066: Group003
+    100068: Group004
+    100070: Group005
+    100072: Group006
+    100074: Group007
+    100076: PivotDoor001
+    100078: TextPlus001
+    400000: AwningWindow003
+    400002: AwningWindow004
+    400004: AwningWindow005
+    400006: AwningWindow006
+    400008: AwningWindow007
+    400010: AwningWindow008
+    400012: AwningWindow009
+    400014: AwningWindow010
+    400016: AwningWindow011
+    400018: AwningWindow012
+    400020: AwningWindow013
+    400022: AwningWindow014
+    400024: AwningWindow015
+    400026: AwningWindow016
+    400028: AwningWindow017
+    400030: AwningWindow018
+    400032: AwningWindow019
+    400034: AwningWindow020
+    400036: AwningWindow021
+    400038: AwningWindow022
+    400040: AwningWindow023
+    400042: AwningWindow024
+    400044: AwningWindow025
+    400046: AwningWindow026
+    400048: AwningWindow027
+    400050: AwningWindow028
+    400052: AwningWindow029
+    400054: AwningWindow030
+    400056: Box001
+    400058: Box002
+    400060: //RootNode
+    400062: Group001
+    400064: Group002
+    400066: Group003
+    400068: Group004
+    400070: Group005
+    400072: Group006
+    400074: Group007
+    400076: PivotDoor001
+    400078: TextPlus001
+    2100000: 'Material #4'
+    2100002: 'Material #2'
+    2100004: 'Material #15'
+    2100006: 'Material #14'
+    2300000: AwningWindow003
+    2300002: AwningWindow004
+    2300004: AwningWindow005
+    2300006: AwningWindow006
+    2300008: AwningWindow007
+    2300010: AwningWindow008
+    2300012: AwningWindow009
+    2300014: AwningWindow010
+    2300016: AwningWindow011
+    2300018: AwningWindow012
+    2300020: AwningWindow013
+    2300022: AwningWindow014
+    2300024: AwningWindow015
+    2300026: AwningWindow016
+    2300028: AwningWindow017
+    2300030: AwningWindow018
+    2300032: AwningWindow019
+    2300034: AwningWindow020
+    2300036: AwningWindow021
+    2300038: AwningWindow022
+    2300040: AwningWindow023
+    2300042: AwningWindow024
+    2300044: AwningWindow025
+    2300046: AwningWindow026
+    2300048: AwningWindow027
+    2300050: AwningWindow028
+    2300052: AwningWindow029
+    2300054: AwningWindow030
+    2300056: Box001
+    2300058: Box002
+    2300060: PivotDoor001
+    2300062: TextPlus001
+    3300000: AwningWindow003
+    3300002: AwningWindow004
+    3300004: AwningWindow005
+    3300006: AwningWindow006
+    3300008: AwningWindow007
+    3300010: AwningWindow008
+    3300012: AwningWindow009
+    3300014: AwningWindow010
+    3300016: AwningWindow011
+    3300018: AwningWindow012
+    3300020: AwningWindow013
+    3300022: AwningWindow014
+    3300024: AwningWindow015
+    3300026: AwningWindow016
+    3300028: AwningWindow017
+    3300030: AwningWindow018
+    3300032: AwningWindow019
+    3300034: AwningWindow020
+    3300036: AwningWindow021
+    3300038: AwningWindow022
+    3300040: AwningWindow023
+    3300042: AwningWindow024
+    3300044: AwningWindow025
+    3300046: AwningWindow026
+    3300048: AwningWindow027
+    3300050: AwningWindow028
+    3300052: AwningWindow029
+    3300054: AwningWindow030
+    3300056: Box001
+    3300058: Box002
+    3300060: PivotDoor001
+    3300062: TextPlus001
+    4300000: Box001
+    4300002: PivotDoor001
+    4300004: AwningWindow006
+    4300006: AwningWindow005
+    4300008: AwningWindow004
+    4300010: AwningWindow003
+    4300012: AwningWindow007
+    4300014: AwningWindow008
+    4300016: AwningWindow009
+    4300018: AwningWindow010
+    4300020: AwningWindow011
+    4300022: AwningWindow012
+    4300024: AwningWindow013
+    4300026: AwningWindow014
+    4300028: AwningWindow015
+    4300030: AwningWindow016
+    4300032: AwningWindow017
+    4300034: AwningWindow018
+    4300036: Box002
+    4300038: AwningWindow019
+    4300040: AwningWindow020
+    4300042: AwningWindow021
+    4300044: AwningWindow022
+    4300046: AwningWindow023
+    4300048: AwningWindow024
+    4300050: AwningWindow025
+    4300052: AwningWindow026
+    4300054: AwningWindow027
+    4300056: AwningWindow028
+    4300058: AwningWindow029
+    4300060: AwningWindow030
+    4300062: TextPlus001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
