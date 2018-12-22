@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 1263834b35498304782ac6f44c1b0606
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Back_LT_Wheel001
+    100004: Back_RT_Wheel001
+    100006: Box001
+    100008: Front_LT_Wheel001
+    100010: Front_RT_Wheel001
+    100012: icecream
+    100014: icecream2
+    100016: LTCone_IceCream
+    100018: LTScoop_IceCream
+    100020: Ref_Back
+    100022: Ref_Front
+    100024: Ref_Side
+    100026: Ref_Tire_Front
+    100028: Ref_Tire_Side
+    100030: RTCone_IceCream
+    100032: RTScoop_IceCream
+    100034: Text_IceCream
+    100036: truck
+    400000: //RootNode
+    400002: Back_LT_Wheel001
+    400004: Back_RT_Wheel001
+    400006: Box001
+    400008: Front_LT_Wheel001
+    400010: Front_RT_Wheel001
+    400012: icecream
+    400014: icecream2
+    400016: LTCone_IceCream
+    400018: LTScoop_IceCream
+    400020: Ref_Back
+    400022: Ref_Front
+    400024: Ref_Side
+    400026: Ref_Tire_Front
+    400028: Ref_Tire_Side
+    400030: RTCone_IceCream
+    400032: RTScoop_IceCream
+    400034: Text_IceCream
+    400036: truck
+    2100000: Front
+    2100002: Side
+    2100004: Back
+    2100006: No Name
+    2100008: 02 - Default
+    2100010: 'Material #2'
+    2100012: 'Material #3'
+    2100014: 'Material #219'
+    2100016: 'Material #27'
+    2100018: 'Material #39'
+    2100020: 08 - Default
+    2100022: 03 - Default
+    2100024: 07 - Default
+    2300000: Back_LT_Wheel001
+    2300002: Back_RT_Wheel001
+    2300004: Box001
+    2300006: Front_LT_Wheel001
+    2300008: Front_RT_Wheel001
+    2300010: LTCone_IceCream
+    2300012: LTScoop_IceCream
+    2300014: Ref_Back
+    2300016: Ref_Front
+    2300018: Ref_Side
+    2300020: Ref_Tire_Front
+    2300022: Ref_Tire_Side
+    2300024: RTCone_IceCream
+    2300026: RTScoop_IceCream
+    2300028: Text_IceCream
+    2300030: truck
+    3300000: Back_LT_Wheel001
+    3300002: Back_RT_Wheel001
+    3300004: Box001
+    3300006: Front_LT_Wheel001
+    3300008: Front_RT_Wheel001
+    3300010: LTCone_IceCream
+    3300012: LTScoop_IceCream
+    3300014: Ref_Back
+    3300016: Ref_Front
+    3300018: Ref_Side
+    3300020: Ref_Tire_Front
+    3300022: Ref_Tire_Side
+    3300024: RTCone_IceCream
+    3300026: RTScoop_IceCream
+    3300028: Text_IceCream
+    3300030: truck
+    4300000: Ref_Front
+    4300002: Ref_Side
+    4300004: Ref_Back
+    4300006: Box001
+    4300008: truck
+    4300010: Ref_Tire_Side
+    4300012: Ref_Tire_Front
+    4300014: Text_IceCream
+    4300016: LTCone_IceCream
+    4300018: LTScoop_IceCream
+    4300020: RTScoop_IceCream
+    4300022: RTCone_IceCream
+    4300024: Front_RT_Wheel001
+    4300026: Front_LT_Wheel001
+    4300028: Back_RT_Wheel001
+    4300030: Back_LT_Wheel001
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
