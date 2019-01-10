@@ -8,6 +8,9 @@ public class enemyManager : MonoBehaviour {
     private int randomNum;
     private BoxCollider2D bCollider;
     private Animator myAnimator;
+    private guiltManager guilt;
+
+    private Camera mainCamera;
 
     // Use this for initialization
     void Start () {
@@ -17,11 +20,21 @@ public class enemyManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (gameObject.transform.position.z < mainCamera.transform.position.z)
+        {
+           // Debug.Log("Bad stuff happens");
+            gameObject.SetActive(false);
+            guilt.addGuilt(5);
+        }
+
+    }
     private void OnEnable()
     {
+        guilt = FindObjectOfType<guiltManager>();
+
+        mainCamera = Camera.main;
         myAnimator = GetComponent<Animator>();
+     /*   myAnimator = GetComponent<Animator>();
 
         myAnimator.SetBool("clicked", false);
         gameObject.SetActive(true);
@@ -60,7 +73,7 @@ public class enemyManager : MonoBehaviour {
             bCollider.offset = new Vector2(0.6f, 0.1056318f);
 
 
-        } // Set the new box collider size to a value based on the specific sprite.
+        }*/ // Set the new box collider size to a value based on the specific sprite.
 
     }
     private void OnMouseDown()
@@ -71,7 +84,7 @@ public class enemyManager : MonoBehaviour {
     {
 
         myAnimator.SetBool("clicked", true);
-        Debug.Log("hi");
+      //  Debug.Log("hi");
         yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
         //Play fadeout animation and deactiavate object.

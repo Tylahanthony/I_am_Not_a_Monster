@@ -8,6 +8,8 @@ public class friendlyManager : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private int randomNum;
     private BoxCollider2D bCollider;
+    //public int bx;
+    //public int by;
     private guiltManager guilt;
     private Animator myAnimator;
     // Use this for initialization
@@ -34,7 +36,7 @@ public class friendlyManager : MonoBehaviour
         bCollider = GetComponent<BoxCollider2D>();      // Get the box collider.
         spriteRenderer = GetComponent<SpriteRenderer>(); // Get the enemy's Sprite Renderer.
         myAnimator = GetComponent<Animator>();
-        randomNum = UnityEngine.Random.Range(0, 8); // Generate a random number to use choose enemy type.
+      /*  randomNum = UnityEngine.Random.Range(0, 8); // Generate a random number to use choose enemy type.
         spriteRenderer.sprite = friends[randomNum]; // set the sprite to a random one from the sprite array.
         if (randomNum == 0)
         {
@@ -85,7 +87,7 @@ public class friendlyManager : MonoBehaviour
             bCollider.offset = new Vector2(-1f, 0.1056318f);
 
 
-        }
+        }*/
 
     }
     private void OnMouseDown()
@@ -96,11 +98,11 @@ public class friendlyManager : MonoBehaviour
     {
         
         myAnimator.SetBool("clicked", true);
-        Debug.Log("hi");
-        guilt.addGuilt(5);
+        //Debug.Log("hi");
+       
         yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
-
+        guilt.addGuilt(5);
 
     }
 }
