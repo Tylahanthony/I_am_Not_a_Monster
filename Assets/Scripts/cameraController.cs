@@ -6,6 +6,7 @@ public class cameraController : MonoBehaviour {
     // Use this for initialization
     public float cameraSpeed;
 	void Start () {
+        cameraSpeed = stats.Speed;
 		
 	}
 	

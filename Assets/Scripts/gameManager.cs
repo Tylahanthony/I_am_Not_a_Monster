@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class gameManager : MonoBehaviour {
     public GameObject[] levels;
     public guiltManager guilt;
-    private Camera mainCamera;
+    public Camera mainCamera;
 
     
     // Use this for initialization
@@ -14,7 +14,7 @@ public class gameManager : MonoBehaviour {
         //spawnBlocks();
         // InvokeRepeating("spawnEnemy", 2.0f, Random.Range(4, 6));
         //InvokeRepeating("spawnFriendly", 2.0f, Random.Range(2, 4));
-       
+        stats.Paused = 0;
         spawnBlocks();
         mainCamera = Camera.main;
 
@@ -22,6 +22,7 @@ public class gameManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+        Debug.Log(stats.Paused);
         //   Debug.Log(UnityEngine.Random.Range(0, 6));
        // Debug.Log("Current Guilt: " + guilt.guilt);
         if (guilt.guilt >= 100)

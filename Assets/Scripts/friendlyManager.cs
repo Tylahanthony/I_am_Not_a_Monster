@@ -7,6 +7,7 @@ public class friendlyManager : MonoBehaviour
     public Sprite[] friends;
     private SpriteRenderer spriteRenderer;
     private int randomNum;
+   // public static int paused = 0;
     private BoxCollider2D bCollider;
     //public int bx;
     //public int by;
@@ -92,8 +93,11 @@ public class friendlyManager : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        StartCoroutine(Die());
-    }
+        if (stats.Paused == 0)
+        {
+            StartCoroutine(Die());
+        }
+        }
     IEnumerator Die()
     {
         
