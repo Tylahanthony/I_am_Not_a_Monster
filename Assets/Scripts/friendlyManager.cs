@@ -104,7 +104,7 @@ public class friendlyManager : MonoBehaviour
         myAnimator.SetBool("clicked", true);
         //Debug.Log("hi");
        
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
         guilt.addGuilt(5);
 

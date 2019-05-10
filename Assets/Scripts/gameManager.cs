@@ -2,22 +2,67 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class gameManager : MonoBehaviour {
     public GameObject[] levels;
     public guiltManager guilt;
     public Camera mainCamera;
+    public Text countDown;
+    float currCountdownValue;
+    float oldSpeed = stats.Speed;
 
-    
     // Use this for initialization
     void Start () {
         //spawnBlocks();
         // InvokeRepeating("spawnEnemy", 2.0f, Random.Range(4, 6));
         //InvokeRepeating("spawnFriendly", 2.0f, Random.Range(2, 4));
-        stats.Paused = 0;
-        spawnBlocks();
         mainCamera = Camera.main;
+        stats.Speed = 0;
+        stats.Paused = 1;
+        StartCoroutine(StartCountdown());
+        spawnBlocks();
+        
 
+
+    }
+    public IEnumerator StartCountdown(float countdownValue = 5)
+    {
+        currCountdownValue = countdownValue;
+        while (currCountdownValue >= -1)
+        {
+            Debug.Log("Countdown: " + currCountdownValue);
+            yield return new WaitForSeconds(1.0f);
+            currCountdownValue--;
+            if (currCountdownValue == 4)
+            {
+                countDown.text = "4!";
+            }
+            if (currCountdownValue == 3)
+            {
+                countDown.text = "3!";
+            }
+            if (currCountdownValue == 2)
+            {
+                countDown.text = "2!";
+            }
+            if (currCountdownValue == 1)
+            {
+                countDown.text = "1!";
+            }
+            if (currCountdownValue == 0)
+            {
+                countDown.text = "GO!";
+            }
+            if (currCountdownValue == -1)
+            {
+                countDown.text = "";
+                stats.Paused = 0;
+                stats.Speed = oldSpeed;
+                currCountdownValue = -5;
+
+            }
+        }
     }
 
     // Update is called once per frame

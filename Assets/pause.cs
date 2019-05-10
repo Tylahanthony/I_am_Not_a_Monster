@@ -28,6 +28,7 @@ public class pause : MonoBehaviour {
     }
     void PauseControl()
     {
+        Debug.Log("Clicked the pause button.");
 
         if (stats.Paused == 0)
         {
